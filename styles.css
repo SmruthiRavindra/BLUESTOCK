@@ -1,0 +1,110 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4a3aff;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.terms {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.terms a {
+    color: #4a3aff;
+}
+
+/* Buttons */
+.btn {
+    margin-top: 15px;
+    padding: 12px;
+    border: none;
+    background-color: #4a3aff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #372cff;
+}
+
+.google-btn {
+    background-color: #db4437;
+    margin-top: 10px;
+    padding: 12px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.google-btn:hover {
+    background-color: #c1351d;
+}
+
+/* Links */
+p {
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #4a3aff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
